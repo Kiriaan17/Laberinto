@@ -1428,8 +1428,8 @@ Transform:
   m_GameObject: {fileID: 1026334083}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.93055, y: 0.489, z: -1.5145202}
-  m_LocalScale: {x: 0.05591025, y: 1, z: 1.9699292}
+  m_LocalPosition: {x: -1.93055, y: 0.357, z: -1.5145202}
+  m_LocalScale: {x: 0.05591025, y: 0.72375, z: 1.9699292}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 945566681}
@@ -1524,6 +1524,7 @@ GameObject:
   - component: {fileID: 1026662448}
   - component: {fileID: 1026662447}
   - component: {fileID: 1026662446}
+  - component: {fileID: 1026662450}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -1624,6 +1625,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1026662450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026662445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7cc513c1ffffd488dac3f0972482d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoJugador
+  movimientoEjeX: 0.00001
+  movimientoEjeY: 0
+  movimientoEjeZ: 0
 --- !u!1 &1060924286
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,8 +2263,8 @@ Transform:
   m_GameObject: {fileID: 1716479329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.86055, y: 0.489, z: -6.4824004}
-  m_LocalScale: {x: 0.05591025, y: 1, z: 1.9699292}
+  m_LocalPosition: {x: -2.86055, y: 0.358, z: -6.4824004}
+  m_LocalScale: {x: 0.05591025, y: 0.71825, z: 1.9699292}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 945566681}
